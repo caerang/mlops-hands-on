@@ -1,0 +1,132 @@
+
+Validation sanity check: 100%|██████████| 2/2 [00:00<00:00,  6.77it/s]
+  | Name                   | Type                          | Params
+-------------------------------------------------------------------------
+0 | bert                   | BertForSequenceClassification | 4.4 M
+1 | train_accuracy_metric  | Accuracy                      | 0
+2 | val_accuracy_metric    | Accuracy                      | 0
+3 | f1_metric              | F1                            | 0
+4 | precision_macro_metric | Precision                     | 0
+5 | recall_macro_metric    | Recall                        | 0
+6 | precision_micro_metric | Precision                     | 0
+7 | recall_micro_metric    | Recall                        | 0
+-------------------------------------------------------------------------
+4.4 M     Trainable params
+0         Non-trainable params
+4.4 M     Total params
+17.545    Total estimated model params size (MB)
+/home/btb/anaconda3/envs/mlops/lib/python3.8/site-packages/pytorch_lightning/utilities/distributed.py:68: UserWarning: The dataloader, val dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 16 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+Epoch 0:   3%| | 5/151 [00:02<01:00,  2.40it/s, loss=0.651, v_num=qk0z
+/home/btb/anaconda3/envs/mlops/lib/python3.8/site-packages/pytorch_lightning/utilities/distributed.py:68: UserWarning: The dataloader, train dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 16 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  94%|▉| 142/151 [00:51<00:03,  2.75it/s, loss=0.597, v_num=qk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  95%|▉| 144/151 [00:53<00:02,  2.70it/s, loss=0.608, v_num=qk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2:  97%|▉| 146/151 [00:53<00:01,  2.71it/s, loss=0.596, v_num=qk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3:  93%|▉| 140/151 [00:52<00:04,  2.68it/s, loss=0.621, v_num=qk
+
+
+Validating:  94%|███████████████████▊ | 16/17 [00:02<00:00,  7.47it/s]

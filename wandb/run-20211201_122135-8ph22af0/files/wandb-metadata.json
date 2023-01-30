@@ -1,0 +1,24 @@
+{
+    "os": "Linux-4.15.0-162-generic-x86_64-with-glibc2.17",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-12-01T03:21:36.681781",
+    "startedAt": "2021-12-01T03:21:35.574744",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "week1/train.py",
+    "codePath": "week1/train.py",
+    "git": {
+        "remote": "https://github.com/caerang/mlops-hands-on.git",
+        "commit": "2df1684b663f5b31aa8b55ad9ccc834b7ce7cb2c"
+    },
+    "email": "mylovercorea@gmail.com",
+    "root": "/home/btb/hd/mlops-hands-on",
+    "host": "btb",
+    "username": "btb",
+    "executable": "/home/btb/anaconda3/envs/mlops/bin/python"
+}
